@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "total_simulations": 3,
+    "overall_compliance_rate": 1.0,
+    "average_svg_bytes": 1561.3333333333333,
+    "average_prompt_length": 490.3333333333333,
+    "average_generation_time": 46.654220333333335,
+    "unique_categories": 1,
+    "template_versions_tested": 3
+  },
+  "template_performance": {
+    

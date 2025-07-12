@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "total_simulations": 3,
+    "overall_compliance_rate": 1.0,
+    "average_svg_bytes": 3248.6666666666665,
+    "average_prompt_length": 490.3333333333333,
+    "average_generation_time": 62.096838,
+    "unique_categories": 1,
+    "template_versions_tested": 3
+  },
+  "template_performance": {
+    "v1": {
+      "constraint_compliance_count": 1,
+      "constraint_compliance_sum": 1,
+      "constraint_compliance_mean": 1.0,
+      "svg_byte_count_mean": 2407.0,
+      "prompt_length_mean": 440.0,
+      "generation_time_mean": 25.9631,
+      "error_count_mean": 0.0
+    },
+    "v2": {
+      "constraint_compliance_count": 1,
+      "constraint_compliance_sum": 1,
+      "constraint_compliance_mean": 1.0,
+      "svg_byte_count_mean": 5437.0,
+      "prompt_length_mean": 501.0,
+      "generation_time_mean": 70.6046,
+      "error_count_mean": 0.0
+    },
+    "v3": {
+      "constraint_compliance_count": 1,
+      "constraint_compliance_sum": 1,
+      "constraint_compliance_mean": 1.0,
+      "svg_byte_count_mean": 1902.0,
+      "prompt_length_mean": 530.0,
+      "generation_time_mean": 89.7227,
+      "error_count_mean": 0.0
+    }
+  },
+  "category_analysis": {
+    "abstract": {
+      "constraint_compliance_count": 3,
+      "constraint_compliance_sum": 3,
+      "constraint_compliance_mean": 1.0,
+      "svg_byte_count_mean": 3248.6667,
+      "error_count_mean": 0.0
+    }
+  },
+  "constraint_violations": {
+    "violation_frequency": {},
+    "most_common_violation": null,
+    "violation_rate_by_template": {
+      "v1": 0.0,
+      "v2": 0.0,
+      "v3": 0.0
+    }
+  },
+  "recommendations": [
+    "Use template version v1 for best constraint compliance",
+    "Focus optimization efforts on abstract category"
+  ],
+  "timestamp": "2025-06-28T03:59:40.089733"
+}
